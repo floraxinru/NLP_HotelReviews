@@ -22,7 +22,7 @@ My dataset is the "515K Hotel Reviews Data in Europe" dataset on Kaggle (https:/
 
 The dataset contains 515738 reviews for 1493 luxury hotels in Europe.
 
-## How to instal and run this project
+## Installation and Usage
 
 
 
