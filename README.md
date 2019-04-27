@@ -19,7 +19,7 @@ In addition, I want to test the hypothesis that well-seasoned travellers (those 
 My dataset is the "515K Hotel Reviews Data in Europe" dataset on Kaggle (https:// www.kaggle.com/jiashenliu/515k-hotel-reviews-data-in-europe). The dataset is a .csv file of size 48MB, containing most text. The positive and negative reviews are already in columns. The reviews are all in English, collected from Booking.com from 2015 to 2017.
 The dataset contains 515738 reviews for 1493 luxury hotels in Europe.
 
-## Installation
+## How to instal and run this project
 
 
 
