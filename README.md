@@ -26,7 +26,8 @@ My dataset is the "515K Hotel Reviews Data in Europe" dataset on Kaggle (https:/
 The dataset contains 515738 reviews for 1493 luxury hotels in Europe.
 
 ## Installation and Usage
-See also: requirements.txt
+I was not able to upload the .csv dataset as it is larger than 25MB. It is available as a .zip file from the Kaggle link in the section above.
+Install the requirements for this project using `pip install -r requirements.txt.` This will install the exact version of the libraries that I had when doing this project.
 
 ## Limitations 
 
