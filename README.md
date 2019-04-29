@@ -1,5 +1,8 @@
 # HotelReviews_SentimentAnalysis
 
+Main tools/concepts used: 
+##### Natural Language Processing, Naive Bayes Classifier, bag-of-words model, Pandas, matplotlib
+
 ## Abstract
 
 Using Naive Bayes Classifier for sentiment analysis on a dataset with 515K reviews on luxury European hotels, I have obtained a training accuracy of 93.5 percent, and a testing accuracy of 92.5 percent when predicting positive and negative reviews. The most informative words indicating a review to be positive or negative are also found, and positive reviews reflect more on hotel staff and location, while highly negative reviews tend to focus on facilities.
@@ -23,7 +26,19 @@ My dataset is the "515K Hotel Reviews Data in Europe" dataset on Kaggle (https:/
 The dataset contains 515738 reviews for 1493 luxury hotels in Europe.
 
 ## Installation and Usage
+See also: requirements.txt
 
+## Limitations 
+
+Certain inherent limitations of this dataset include the fact that it only contains English reviews collected on one website (Booking.com), and that the hotels are limited to luxury hotels in Europe. Also the text-based nature of the dataset make it more difficult for nice visualizations.
+
+When identifying experienced travellers based on the number of reviews they wrote in this dataset, I am also neglecting the possibility that some reviewers might have written reviews using different accounts on other websites.
+
+## Further Work
+
+Future work which will provide more insights include building a regression model to predict ratings based on certain words in the reviews, clustering the reviews as well as hotels to look for patterns, and filtering out reviews that could be misleading (“no negatives”) to increase the prediction accuracy of the Naive Bayes Classifier to a number even higher than 92.5%.
+
+I would also like to try different kinds of visualizations and improve the appearance of the current ones. The next visualization to try would be using a Folium map to visualize nationalities of reviewers who gave the highest ratings
 
 
 
