@@ -41,6 +41,6 @@ Future work which will provide more insights include building a regression model
 
 I would also like to try different kinds of visualizations and improve the appearance of the current ones. The next visualization to try would be using a Folium map to visualize nationalities of reviewers who gave the highest ratings
 
-
+(Updated May 2019:) A new and revolutionary approach for NLP was developed in 2018, using neural networks and inductive transfer learning for text classification (https://arxiv.org/abs/1801.06146). It would be very interesting to apply it here (there's already at least 1 related kernel on Kaggle), and train a language model and use it to classify hotel reviews (the result might also be applied to reviews for airbnb or other websites for rentals).
 
 
