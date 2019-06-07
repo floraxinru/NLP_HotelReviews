@@ -9,6 +9,15 @@ Using Naive Bayes Classifier for sentiment analysis on a dataset with 515K revie
 
 This project is based on my Final Project for Python for Data Science on edx, first submitted in Dec. 2017, using sentiment analysis to analyze 515K European Hotel Reviews.
 
+### June 2019 Update:
+> Folks at Radical.io (https://www.radical.io/) were very kind in welcoming me into their office to give a presentation about this project. I have uploaded the slides for my 15-min talk which included an overview of the Data Science process, different types of Machine Learning, and extra slides on basics of the ULMFiT approach for NLP.
+
+
+### May 2019 Update: 
+> A new and revolutionary approach for NLP was developed in 2018, called Universal Language Model Fine-tuning for Text Classification (ULMFit). It utilizes neural networks and inductive transfer learning for text classification.(https://arxiv.org/abs/1801.06146). It would be very interesting to apply it here (there's already at least 1 related kernel on Kaggle), and train a language model and use it to classify hotel reviews. The result might also be applied to reviews for airbnb or other websites for rentals.
+
+
+
 ## Motivation
 
 During the past few years, us consumers rely increasingly heavily on online ratings and reviews when making decisions, especially when travelling to a new destination.
@@ -36,7 +45,3 @@ When identifying experienced travellers based on the number of reviews they wrot
 Future work which will provide more insights include building a regression model to predict ratings based on certain words in the reviews, clustering the reviews as well as hotels to look for patterns, and filtering out reviews that could be misleading (“no negatives”) to increase the prediction accuracy of the Naive Bayes Classifier to a number even higher than 92.5%.
 
 I would also like to try different kinds of visualizations and improve the appearance of the current ones. The next visualization to try would be using a Folium map to visualize geographic locations of the hotels as well as nationalities of reviewers
-
-(Updated May 2019:) A new and revolutionary approach for NLP was developed in 2018, using neural networks and inductive transfer learning for text classification (https://arxiv.org/abs/1801.06146). It would be very interesting to apply it here (there's already at least 1 related kernel on Kaggle), and train a language model and use it to classify hotel reviews (the result might also be applied to reviews for airbnb or other websites for rentals).
-
-
