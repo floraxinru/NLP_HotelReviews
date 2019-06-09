@@ -11,7 +11,8 @@ This project is based on my Final Project for Python for Data Science on edx, fi
 
 ### June 2019 Update:
 > Folks at Radical.io (https://www.radical.io/) were very kind in welcoming me into their office to give a presentation about this project. I have uploaded the slides for my 15-min talk which included an overview of the Data Science process, different types of Machine Learning, and extra slides on basics of the ULMFiT approach for NLP.
-
+The presentation was well-received, and they kindly posted about it here: 
+https://www.linkedin.com/feed/update/urn:li:activity:6542891460965081088/
 
 ### May 2019 Update: 
 > A new and revolutionary approach for NLP was developed in 2018, called Universal Language Model Fine-tuning for Text Classification (ULMFit). It utilizes neural networks and inductive transfer learning for text classification.(https://arxiv.org/abs/1801.06146). It would be very interesting to apply it here (there's already at least 1 related kernel on Kaggle), and train a language model and use it to classify hotel reviews. The result might also be applied to reviews for airbnb or other websites for rentals.
