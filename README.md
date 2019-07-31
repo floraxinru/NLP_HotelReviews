@@ -15,7 +15,7 @@ The presentation was well-received, and they kindly posted about it here:
 https://www.linkedin.com/feed/update/urn:li:activity:6542891460965081088/
 
 ### May 2019 Update: 
-> A new and revolutionary approach for NLP was developed in 2018, called Universal Language Model Fine-tuning for Text Classification (ULMFit). It utilizes neural networks and inductive transfer learning for text classification.(https://arxiv.org/abs/1801.06146). It would be very interesting to apply it here (there's already at least 1 related kernel on Kaggle), and train a language model and use it to classify hotel reviews. The result might also be applied to reviews for airbnb or other websites for rentals.
+> A new and revolutionary approach for NLP was developed in 2018, called Universal Language Model Fine-tuning for Text Classification (ULMFiT). It utilizes neural networks and inductive transfer learning for text classification.(https://arxiv.org/abs/1801.06146). It would be very interesting to apply it here (there's already at least 1 related kernel on Kaggle), and train a language model and use it to classify hotel reviews. The result might also be applied to reviews for airbnb or other websites for rentals.
 
 
 
@@ -46,3 +46,5 @@ When identifying experienced travellers based on the number of reviews they wrot
 Future work which will provide more insights include building a regression model to predict ratings based on certain words in the reviews, clustering the reviews as well as hotels to look for patterns, and filtering out reviews that could be misleading (“no negatives”) to increase the prediction accuracy of the Naive Bayes Classifier to a number even higher than 92.5%.
 
 I would also like to try different kinds of visualizations and improve the appearance of the current ones. The next visualization to try would be using a Folium map to visualize geographic locations of the hotels as well as nationalities of reviewers
+
+Also I would like to try using ULMFiT (see update above) to improve the accuracy of text classification for this dataset or a larger, more complex dataset.
